@@ -13,7 +13,7 @@ import {
   Mail,
   Building
 } from 'lucide-react';
-import { BRAND_NAME, ADMIN_EMAIL } from '../../config/site';
+import { BRAND_NAME } from '../../config/site';
 import { requestService } from '../../services/requestService';
 import { PRODUCT_CATEGORIES } from '../../data/categories';
 
@@ -45,13 +45,6 @@ export const Navbar: React.FC = () => {
     return () => document.removeEventListener('mousedown', handleClickOutside);
   }, []);
 
-  const handleQuickAdminLogin = () => {
-    requestService.adminLogin(ADMIN_EMAIL);
-    setIsAdmin(true);
-    setSettingsDropdownOpen(false);
-    navigate('/admin');
-  };
-
   const handleAdminLogout = () => {
     requestService.adminLogout();
     setIsAdmin(false);
@@ -70,18 +63,19 @@ export const Navbar: React.FC = () => {
         {/* Brand Logo matching reference aesthetic */}
         <Link
           to="/"
-          className="flex items-center gap-2.5 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#0E9F9A] rounded-[8px]"
+          className="flex items-center gap-2.5 group focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[#b91c1c] rounded-[8px]"
         >
-          <div className="w-8 h-8 rounded-[8px] bg-[#0B2545] text-white flex items-center justify-center font-bold text-xs tracking-wider border-t-2 border-[#0E9F9A] shadow-xs">
-            TN
-          </div>
           <div className="flex flex-col">
-            <span className="font-extrabold text-base sm:text-lg tracking-tight text-[#0B2545] leading-tight">
-              TAMIL NADU
-            </span>
-            <span className="text-[10px] font-semibold uppercase tracking-widest text-[#0E9F9A] leading-tight">
-              EXPORT SOURCING
-            </span>
+            <div className="flex items-center tracking-tight text-xl sm:text-2xl font-black">
+              <span className="text-[#0B2545]">CONNECT</span>
+              <span className="text-[#b91c1c] ml-1.5">HF</span>
+            </div>
+            <div className="flex items-center gap-1.5 -mt-0.5">
+              <div className="w-8 h-0.5 bg-[#b91c1c] rounded-full" />
+              <span className="text-[9px] font-bold uppercase tracking-widest text-slate-500">
+                SOURCING PARTNER
+              </span>
+            </div>
           </div>
         </Link>
 

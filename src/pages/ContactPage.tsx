@@ -86,39 +86,40 @@ export const ContactPage: React.FC = () => {
       <div className="py-14 bg-[#F5F7FA]">
         <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
           <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
-            {/* Contact Details (No street address!) */}
+            {/* Contact Details (No physical address as requested) */}
             <div className="lg:col-span-5 space-y-6">
               <div className="bg-white p-6 sm:p-8 rounded-[8px] border border-slate-200 space-y-4 shadow-xs">
                 <h2 className="text-base font-bold text-[#0B2545]">
-                  Agency Details
+                  Coordination Desk
                 </h2>
 
                 <div className="space-y-4 text-xs text-slate-700">
                   <div className="flex items-start gap-3">
-                    <MapPin className="w-4 h-4 text-[#0E9F9A] shrink-0 mt-0.5" />
-                    <div>
-                      <span className="font-semibold block text-slate-900">Location:</span>
-                      <span>Tamil Nadu, India</span>
-                    </div>
-                  </div>
-
-                  <div className="flex items-start gap-3">
-                    <Mail className="w-4 h-4 text-[#0E9F9A] shrink-0 mt-0.5" />
+                    <Mail className="w-4 h-4 text-[#b91c1c] shrink-0 mt-0.5" />
                     <div>
                       <span className="font-semibold block text-slate-900">Direct Email:</span>
                       <a
                         href={`mailto:${CONTACT_EMAIL}`}
-                        className="text-[#0E9F9A] hover:underline"
+                        className="text-[#b91c1c] hover:underline font-mono"
                       >
                         {CONTACT_EMAIL}
                       </a>
                     </div>
                   </div>
+
+                  <div className="p-3 bg-slate-50 border border-slate-200 rounded-[6px] space-y-1">
+                    <span className="font-semibold block text-slate-900 text-[11px] uppercase tracking-wider">
+                      Response Timeline
+                    </span>
+                    <p className="text-slate-600 leading-normal">
+                      We review inbound messages within 24 to 48 business hours. For immediate RFQ processing, submit a formal buyer brief.
+                    </p>
+                  </div>
                 </div>
 
                 <div className="pt-2 text-xs text-slate-500 leading-relaxed border-t border-slate-100">
-                  For formal product briefs with technical specifications and target pricing, please use the{' '}
-                  <Link to="/buyers#enquiry" className="text-[#0E9F9A] underline font-medium">
+                  For product sourcing briefs with technical specifications and target pricing, please use the{' '}
+                  <Link to="/buyers#enquiry" className="text-[#b91c1c] underline font-semibold">
                     Buyer Sourcing Brief form
                   </Link>
                   .

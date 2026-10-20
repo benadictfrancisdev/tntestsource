@@ -4,8 +4,7 @@ import { Mail, MapPin, ShieldCheck } from 'lucide-react';
 import {
   BRAND_NAME,
   CONTACT_EMAIL,
-  SOCIALS,
-  ADMIN_EMAIL
+  SOCIALS
 } from '../../config/site';
 
 export const Footer: React.FC = () => {
@@ -13,27 +12,26 @@ export const Footer: React.FC = () => {
     <footer className="bg-[#0B2545] text-slate-300 pt-16 pb-12 border-t border-slate-800">
       <div className="max-w-[1200px] mx-auto px-4 sm:px-6">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10 pb-12 border-b border-slate-700/60">
-          {/* Column 1: Brand & Region */}
+          {/* Column 1: Brand & Liaison */}
           <div className="space-y-4">
-            <div className="flex items-center gap-2.5">
-              <div className="w-8 h-8 rounded-[8px] bg-white text-[#0B2545] flex items-center justify-center font-bold text-xs border-t-2 border-[#0E9F9A]">
-                TN
+            <div className="flex flex-col">
+              <div className="flex items-center tracking-tight text-xl font-black">
+                <span className="text-white">CONNECT</span>
+                <span className="text-[#ef4444] ml-1.5">HF</span>
               </div>
-              <span className="text-white font-bold text-base tracking-tight">
-                {BRAND_NAME}
-              </span>
+              <div className="flex items-center gap-1.5 mt-0.5">
+                <div className="w-6 h-0.5 bg-[#ef4444] rounded-full" />
+                <span className="text-[9px] font-bold uppercase tracking-widest text-slate-400">
+                  SOURCING PARTNER
+                </span>
+              </div>
             </div>
 
             <div className="flex items-center gap-2 text-xs text-slate-300">
-              <MapPin className="w-3.5 h-3.5 text-[#0E9F9A] shrink-0" />
-              <span>Tamil Nadu, India</span>
-            </div>
-
-            <div className="flex items-center gap-2 text-xs text-slate-300">
-              <Mail className="w-3.5 h-3.5 text-[#0E9F9A] shrink-0" />
+              <Mail className="w-3.5 h-3.5 text-[#ef4444] shrink-0" />
               <a
                 href={`mailto:${CONTACT_EMAIL}`}
-                className="hover:text-white underline underline-offset-2 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#0E9F9A]"
+                className="hover:text-white underline underline-offset-2 transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-[#ef4444]"
               >
                 {CONTACT_EMAIL}
               </a>
@@ -41,11 +39,11 @@ export const Footer: React.FC = () => {
 
             <div className="pt-2">
               <Link
-                to="/admin"
+                to="/settings"
                 className="inline-flex items-center gap-1.5 text-xs text-slate-400 hover:text-white transition-colors"
               >
-                <ShieldCheck className="w-3.5 h-3.5 text-[#0E9F9A]" />
-                <span>Admin Login</span>
+                <ShieldCheck className="w-3.5 h-3.5 text-slate-400" />
+                <span>Admin & Settings</span>
               </Link>
             </div>
           </div>

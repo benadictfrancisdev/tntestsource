@@ -97,14 +97,8 @@ export const AdminPage: React.FC = () => {
       setIsAdminLoggedIn(true);
       loadData();
     } else {
-      setLoginError(`Access denied. Only authorized admin account (${ADMIN_EMAIL}) has administrative permissions.`);
+      setLoginError('Access denied. Unrecognized or unauthorized administrator credentials.');
     }
-  };
-
-  const handle1ClickLogin = () => {
-    requestService.adminLogin(ADMIN_EMAIL);
-    setIsAdminLoggedIn(true);
-    loadData();
   };
 
   const handleLogout = () => {
@@ -257,7 +251,7 @@ export const AdminPage: React.FC = () => {
   if (!isAdminLoggedIn) {
     return (
       <>
-        <Seo title="Admin Login | Tamil Nadu Export Sourcing" noindex path="/admin" />
+        <Seo title={`Admin Login | ${BRAND_NAME}`} noindex path="/admin" />
         <div className="py-20 bg-[#F5F7FA] min-h-[75vh] flex items-center justify-center">
           <div className="w-full max-w-md mx-4 bg-white border border-slate-200 rounded-[10px] p-6 sm:p-8 shadow-sm space-y-6">
             <div className="text-center space-y-2">
@@ -348,7 +342,7 @@ export const AdminPage: React.FC = () => {
 
   return (
     <>
-      <Seo title="Admin Portal | Tamil Nadu Export Sourcing" noindex path="/admin" />
+      <Seo title={`Admin Portal | ${BRAND_NAME}`} noindex path="/admin" />
 
       {/* Admin Top Navigation Bar */}
       <div className="bg-[#0B2545] text-white py-4 border-b border-slate-800">

@@ -64,28 +64,27 @@ export const HomePage: React.FC = () => {
             {/* Left Content */}
             <div className="lg:col-span-7 space-y-6">
               {/* Eyebrow badge matching reference */}
-              <div className="inline-flex items-center gap-2 px-3 py-1 bg-red-50 border border-red-200/80 rounded-full text-xs font-bold uppercase tracking-wider text-[#b91c1c]">
+              <div className="inline-flex items-center gap-2 px-3.5 py-1.5 bg-red-50 border border-red-200/80 rounded-full text-xs font-bold uppercase tracking-wider text-[#b91c1c]">
                 <span className="w-2 h-2 rounded-full bg-[#b91c1c] animate-pulse"></span>
-                <span>Sourcing From Tamil Nadu, Made Simple</span>
+                <span>SOURCING FROM INDIA, MADE SIMPLE</span>
               </div>
 
               {/* Bold Title */}
               <div className="space-y-2">
                 <h1 className="text-3xl sm:text-5xl lg:text-5xl font-extrabold text-[#0B2545] tracking-tight leading-[1.12]">
-                  Source from Tamil Nadu. <br />
-                  Connect with the{' '}
-                  <span className="text-[#b91c1c]">Right Manufacturers.</span>
+                  Your Sourcing Partner for <br />
+                  Products <span className="text-[#b91c1c]">Made in India</span>
                 </h1>
                 {/* Decorative underline like reference */}
                 <div className="flex items-center gap-2 pt-1">
-                  <div className="w-12 h-1 bg-[#b91c1c] rounded-full"></div>
+                  <div className="w-14 h-1 bg-[#b91c1c] rounded-full"></div>
                   <div className="w-1.5 h-1.5 bg-[#b91c1c] rounded-full"></div>
                 </div>
               </div>
 
               {/* Subtitle */}
               <p className="text-base sm:text-lg text-slate-600 leading-relaxed max-w-2xl font-normal">
-                We help international buyers discover and connect with suitable manufacturers and suppliers across Tamil Nadu, India. From product enquiries and supplier shortlisting to quotation coordination, we help move sourcing conversations forward with clear communication.
+                We help importers, brands, and procurement teams source directly from India. Tell us what you need — we'll handle the complete procurement process end to end, from supplier sourcing to logistics.
               </p>
 
               {/* Action Buttons */}
@@ -94,7 +93,7 @@ export const HomePage: React.FC = () => {
                   to="/buyers#enquiry"
                   className="inline-flex items-center justify-center px-6 py-3.5 text-sm font-bold text-white bg-[#b91c1c] hover:bg-[#991b1b] rounded-[8px] transition-all shadow-md hover:shadow-lg group"
                 >
-                  <span>Submit a Sourcing Enquiry</span>
+                  <span>Submit a Sourcing Requirement</span>
                   <ArrowRight className="w-4 h-4 ml-2 group-hover:translate-x-0.5 transition-transform" />
                 </Link>
 
@@ -248,10 +247,10 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl font-black text-[#0B2545] tracking-tight">
-                    6 Major
+                    100,000+
                   </div>
                   <div className="text-xs text-slate-500 font-medium leading-tight">
-                    Industrial Clusters
+                    Verified Suppliers
                   </div>
                 </div>
               </div>
@@ -263,10 +262,10 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl font-black text-[#0B2545] tracking-tight">
-                    6 Sourcing
+                    13
                   </div>
                   <div className="text-xs text-slate-500 font-medium leading-tight">
-                    Product Sectors
+                    Product Industries
                   </div>
                 </div>
               </div>
@@ -278,7 +277,7 @@ export const HomePage: React.FC = () => {
                 </div>
                 <div>
                   <div className="text-xl sm:text-2xl font-black text-[#0B2545] tracking-tight">
-                    6-Stage
+                    7-Step
                   </div>
                   <div className="text-xs text-slate-500 font-medium leading-tight">
                     Managed Process
@@ -296,7 +295,7 @@ export const HomePage: React.FC = () => {
                     End-to-End
                   </div>
                   <div className="text-xs text-slate-500 font-medium leading-tight">
-                    Coordination Support
+                    Procurement Support
                   </div>
                 </div>
               </div>

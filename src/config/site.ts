@@ -15,8 +15,8 @@ export interface TeamMember {
   image?: string;
 }
 
-export const BRAND_NAME = "Tamil Nadu Export Sourcing";
-export const TAGLINE = "Tamil Nadu Manufacturing. Global Opportunities.";
+export const BRAND_NAME = "Connect HF";
+export const TAGLINE = "Your Sourcing Partner for Products Made in India";
 export const CONTACT_EMAIL = "hello@example.com";
 export const SITE_URL = "https://example.com";
 
