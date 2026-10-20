@@ -1,0 +1,54 @@
+@import "tailwindcss";
+
+:root {
+  --navy: #0B2545;
+  --navy-dark: #07192F;
+  --navy-light: #183C6C;
+  --teal: #0E9F9A;
+  --teal-hover: #0B8884;
+  --teal-light: #EBF7F7;
+  --amber: #D98E04;
+  --amber-light: #FFF8EB;
+  --surface: #F5F7FA;
+  --slate-text: #1F2937;
+  --muted-text: #6B7280;
+  --border-subtle: #E5E7EB;
+  --radius: 8px;
+}
+
+@theme {
+  --color-navy: #0B2545;
+  --color-navy-dark: #07192F;
+  --color-navy-light: #183C6C;
+  --color-teal: #0E9F9A;
+  --color-teal-hover: #0B8884;
+  --color-teal-light: #EBF7F7;
+  --color-amber: #D98E04;
+  --color-amber-light: #FFF8EB;
+  --color-surface: #F5F7FA;
+  --color-slate-text: #1F2937;
+  --color-muted-text: #6B7280;
+  --font-sans: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --radius-brand: 8px;
+}
+
+body {
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  color: #1F2937;
+  background-color: #ffffff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessibility: Visible Focus Rings */
+:focus-visible {
+  outline: 2px solid #0E9F9A;
+  outline-offset: 2px;
+}
+
+/* Custom layout container helper */
+.max-content-width {
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}

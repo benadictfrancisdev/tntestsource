@@ -1,0 +1,6 @@
+{
+  "name": "Tamil Nadu Export Sourcing",
+  "description": "B2B sourcing agency connecting international buyers with established Tamil Nadu manufacturers.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
