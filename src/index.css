@@ -52,3 +52,52 @@ body {
   margin-left: auto;
   margin-right: auto;
 }
+
+/* Gentle illustrative scene floating animations */
+@keyframes illustrative-drift-1 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+@keyframes illustrative-drift-2 {
+  0%, 100% {
+    transform: translateY(0px) rotate(0deg);
+  }
+  50% {
+    transform: translateY(-6px) rotate(0.5deg);
+  }
+}
+
+@keyframes illustrative-drift-3 {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-3px);
+  }
+}
+
+.illustrative-float-1 {
+  animation: illustrative-drift-1 5s ease-in-out infinite;
+}
+
+.illustrative-float-2 {
+  animation: illustrative-drift-2 6.5s ease-in-out infinite 0.7s;
+}
+
+.illustrative-float-3 {
+  animation: illustrative-drift-3 5.8s ease-in-out infinite 1.4s;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .illustrative-float-1,
+  .illustrative-float-2,
+  .illustrative-float-3 {
+    animation: none !important;
+  }
+}
+

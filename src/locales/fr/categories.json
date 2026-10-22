@@ -1,0 +1,50 @@
+{
+  "textiles-garments": {
+    "name": "Textiles, Garments & Home Furnishings",
+    "short": "Knitwear, apparel, towels, home textiles, uniforms and made-ups, subject to supplier confirmation."
+  },
+  "leather-goods": {
+    "name": "Leather Goods & Footwear",
+    "short": "Bags, wallets, belts, footwear and selected leather accessories, subject to supplier confirmation."
+  },
+  "bags-packaging": {
+    "name": "Bags & Packaging",
+    "short": "Cotton and canvas bags, reusable shopping bags and suitable packaging products, subject to supplier confirmation."
+  },
+  "engineering-components": {
+    "name": "Engineering & Industrial Components",
+    "short": "Precision-machined parts, fabricated metal parts, fasteners and selected industrial components, subject to supplier confirmation."
+  },
+  "auto-components": {
+    "name": "Auto Components & Mobility Parts",
+    "short": "Machined and cast components, rubber and metal parts, wiring and fittings, and aftermarket parts, subject to supplier confirmation."
+  },
+  "pumps-electricals": {
+    "name": "Pumps, Motors & Electricals",
+    "short": "Pumps and pump parts, electric motors, switchgear components, cables and fittings, subject to supplier confirmation."
+  },
+  "rubber-plastics": {
+    "name": "Rubber & Plastic Products",
+    "short": "Moulded rubber parts, plastic components, packaging containers and household products, subject to supplier confirmation."
+  },
+  "handicrafts-home-decor": {
+    "name": "Handicrafts & Home Décor",
+    "short": "Selected artisan-made products, decorative goods and gift items, subject to supplier confirmation."
+  },
+  "agricultural-products": {
+    "name": "Agricultural Products & Ingredients",
+    "short": "Selected products such as moringa, spices and other items, subject to supplier verification and destination-market requirements."
+  },
+  "food-processing": {
+    "name": "Food Processing & Packaged Foods",
+    "short": "Packaged snacks, spice blends, ready mixes and processed ingredients, subject to supplier confirmation."
+  },
+  "coir-natural-fibre": {
+    "name": "Coir & Natural Fibre Products",
+    "short": "Coir mats, coco pith and grow bags, ropes and twine, natural fibre home products, subject to supplier confirmation."
+  },
+  "granite-stone-ceramics": {
+    "name": "Granite, Stone & Ceramics",
+    "short": "Granite slabs and tiles, stone products, ceramic and terracotta items, garden and home products, subject to supplier confirmation."
+  }
+}

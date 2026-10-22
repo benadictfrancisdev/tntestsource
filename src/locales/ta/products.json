@@ -1,0 +1,34 @@
+{
+  "seoTitle": "Manufacturing Categories & Product Sectors | Connect HF",
+  "seoDescription": "Discover Tamil Nadu manufacturing sectors we can help source: textiles, engineering parts, auto components, leather, coir, granite, packaging, and packaged foods.",
+  "header": {
+    "eyebrow": "Manufacturing Sectors",
+    "title": "Explore Product Categories We Can Help Source",
+    "subtitle": "Browse 12 key industrial and consumer product sectors across Tamil Nadu. Filter by industry group or search for specific products."
+  },
+  "search": {
+    "placeholder": "Search categories, products or clusters...",
+    "allFilter": "All"
+  },
+  "groups": {
+    "textilesAndLeather": "Textiles & Leather",
+    "engineeringAndIndustrial": "Engineering & Industrial",
+    "homeAndLifestyle": "Home & Lifestyle",
+    "agriAndFood": "Agri & Food",
+    "naturalMaterialsAndStone": "Natural Materials & Stone"
+  },
+  "empty": {
+    "message": "No category matches your search. Tell us what you need and we will check our supplier network.",
+    "button": "Submit a Custom Requirement"
+  },
+  "detail": {
+    "productTypesTitle": "Product Types We Can Help Source",
+    "quoteInfoTitle": "Information Required to Quote",
+    "quoteInfoSubtitle": "To help us coordinate an accurate quotation with suppliers, please include these details in your enquiry:",
+    "clustersTitle": "Primary Regional Clusters",
+    "requestQuoteBanner": "Ready to source this product category from Tamil Nadu?",
+    "stickyBarText": "Source {{name}} from verified Tamil Nadu suppliers.",
+    "relatedTitle": "Related Categories",
+    "subjectToConfirmation": "Specifications, volumes and certifications are confirmed case by case with suppliers."
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "seoTitle": "Contact Our Coordination Desk | Connect HF",
+  "seoDescription": "Get in touch with Connect HF. Reach our coordination desk for general sourcing inquiries, supplier questions, or coordination support.",
+  "hero": {
+    "title": "Contact Our Coordination Desk",
+    "subtitle": "Reach out with product requirements, supplier questions, or general coordination inquiries."
+  },
+  "desk": {
+    "title": "Coordination Desk",
+    "directEmail": "Direct Email",
+    "timelineTitle": "Response Timeline",
+    "timelineText": "We review inbound messages within 24 to 48 business hours. For immediate RFQ processing, submit a formal buyer brief.",
+    "buyerPrompt": "For formal product sourcing briefs with technical specifications and target pricing, please use the"
+  },
+  "form": {
+    "title": "Send a Message",
+    "subtitle": "Fill out the form below to connect with our coordination desk.",
+    "name": "Full Name",
+    "email": "Business Email",
+    "company": "Company Name",
+    "optional": "(optional)",
+    "enquiryType": "Enquiry Type",
+    "typeBuyer": "Buyer enquiry",
+    "typeMfr": "Manufacturer application",
+    "typeGeneral": "General question",
+    "message": "Message",
+    "consent": "I agree to the processing of my contact information in accordance with the Privacy Policy.",
+    "submit": "Send Message",
+    "successTitle": "Message Received",
+    "successText": "Thank you for reaching out. Your reference code is",
+    "successSubtext": "Our coordination desk will review your inquiry and follow up shortly."
+  }
+}

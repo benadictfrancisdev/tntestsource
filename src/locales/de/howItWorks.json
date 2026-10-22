@@ -1,0 +1,18 @@
+{
+  "seoTitle": "How It Works | 4-Step Sourcing Process | Connect HF",
+  "seoDescription": "Learn how Connect HF coordinates B2B product sourcing from Tamil Nadu: requirement intake, supplier matching, quotation review, and production liaison.",
+  "hero": {
+    "title": "A Transparent, 4-Stage Sourcing Coordination Lifecycle",
+    "subtitle": "From detailed engineering briefs to container dispatch, we structure buyer-manufacturer communication with realistic expectations."
+  },
+  "steps": {
+    "step1Title": "1. Requirement Intake & Scope Definition",
+    "step1Desc": "You submit detailed product specifications, target order volume, and destination requirements. We review technical viability.",
+    "step2Title": "2. Supplier Research & Cluster Shortlisting",
+    "step2Desc": "We identify and screen manufacturers within relevant Tamil Nadu industrial clusters, verifying capabilities and active machinery.",
+    "step3Title": "3. Quotation Consolidation & Sample Review",
+    "step3Desc": "Direct factory quotations and timeline estimates are gathered and organized. Sample runs are coordinated for your physical review.",
+    "step4Title": "4. Order Liaison & Export Coordination",
+    "step4Desc": "Once you contract directly with the chosen supplier, we assist in milestone tracking, pre-shipment inspections, and port dispatch."
+  }
+}

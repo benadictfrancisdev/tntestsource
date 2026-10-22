@@ -1,0 +1,122 @@
+{
+  "multiStep": {
+    "step1Title": "منتجاتك",
+    "step1Subtitle": "حدد المنتجات التي ترغب في توريدها",
+    "step2Title": "التسليم والشروط",
+    "step2Subtitle": "وجهة الشحن والشروط التجارية والامتثال",
+    "step3Title": "بياناتك",
+    "step3Subtitle": "معلومات الشركة وتفضيلات التواصل",
+    "step4Title": "المراجعة والإرسال",
+    "step4Subtitle": "تحقق من التفاصيل وأرسل طلبك",
+    "stepOf": "الخطوة {{current}} من {{total}}"
+  },
+  "step1": {
+    "productItemTitle": "بند المنتج {{index}}",
+    "addProduct": "+ إضافة منتج آخر (حتى 5)",
+    "removeProduct": "إزالة المنتج",
+    "categoryLabel": "فئة المنتج *",
+    "selectCategory": "اختر الفئة",
+    "productNameLabel": "اسم المنتج *",
+    "productNamePlaceholder": "مثال: سترة قطنية من القطن الممشط",
+    "specsLabel": "المواصفات والتفاصيل الفنية *",
+    "specsHelper": "المواد، الأبعاد/المقاس، اللون، التشطيب، التفاوتات المسموحة، الوزن (GSM)، والمعايير المعمول بها.",
+    "specsPlaceholder": "قدم المواصفات الدقيقة، أو الكثافة، أو المعايير المتبعة...",
+    "quantityLabel": "الكمية التقديرية *",
+    "quantityPlaceholder": "مثال: 2500",
+    "unitLabel": "الوحدة *",
+    "units": {
+      "pieces": "قطعة",
+      "kg": "كجم",
+      "metres": "متر",
+      "sets": "طقم",
+      "cartons": "كرتونة",
+      "tonnes": "طن",
+      "other": "أخرى"
+    },
+    "orderFrequencyLabel": "تكرار الطلب",
+    "frequencies": {
+      "oneTime": "طلب تجريبي لمرة واحدة",
+      "monthly": "شهري متكرر",
+      "quarterly": "ربع سنوي متكرر",
+      "yearly": "عقد سنوي",
+      "notSure": "غير متأكد حالياً"
+    },
+    "targetPriceLabel": "السعر المستهدف (اختياري)",
+    "targetPricePlaceholder": "مثال: 12.50",
+    "currencyLabel": "العملة",
+    "quoteHintsTitle": "ما يحتاجه الموردون لتقديم عرض سعر لهذه الفئة:"
+  },
+  "step2": {
+    "destinationCountryLabel": "بلد الوجهة *",
+    "selectCountry": "اختر بلد الوجهة",
+    "deliveryLocationLabel": "ميناء أو موقع التسليم",
+    "deliveryLocationPlaceholder": "مثال: ميناء هامبورغ أو أساس CIF",
+    "tradeTermsLabel": "الشروط التجارية المفضلة (Incoterms)",
+    "tradeTermsHelper": "تفضيل استرشادي فقط. يتم الاتفاق النهائي بين المشتري والمصنع.",
+    "incoterms": {
+      "notSure": "غير متأكد / اقترح الأفضل",
+      "exw": "EXW (تسليم أرض المصنع)",
+      "fob": "FOB (تسليم على ظهر السفينة ميناء تشيناي/توتيكورين)",
+      "cif": "CIF (التكلفة والتأمين والشحن إلى ميناء الوصول)",
+      "ddp": "DDP (تسليم مع دفع الرسوم الجمركية إلى المستودع)"
+    },
+    "deliveryDateLabel": "تاريخ التسليم المستهدف (اختياري)",
+    "sampleRequiredLabel": "طلب عينة فعلية قبل بدء الإنتاج الكامل",
+    "customisationLabel": "مطلوب علامة تجارية خاصة / تغليف مخصص",
+    "customisationNotesLabel": "تفاصيل التخصيص والعلامة التجارية",
+    "customisationNotesPlaceholder": "وضح تفاصيل النقش، الملصقات، التطريز، أو التغليف الخاص...",
+    "complianceLabel": "الشهادات أو متطلبات الفحص (اختياري)",
+    "compliancePlaceholder": "مثال: GOTS, OEKO-TEX, REACH, FDA...",
+    "fileUploadLabel": "تحميل الرسومات أو المواصفات الفنية (اختياري)",
+    "fileUploadHelper": "حتى 3 ملفات، بحد أقصى 10 ميجابايت لكل ملف (PDF, PNG, JPG, CAD, DOCX)."
+  },
+  "step3": {
+    "fullNameLabel": "الاسم الكامل *",
+    "fullNamePlaceholder": "اسمك",
+    "businessEmailLabel": "البريد الإلكتروني للعمل *",
+    "businessEmailPlaceholder": "name@company.com",
+    "companyNameLabel": "اسم الشركة *",
+    "companyNamePlaceholder": "اسم الشركة المسجل",
+    "countryLabel": "بلدك *",
+    "selectCountry": "اختر بلدك",
+    "websiteLabel": "موقع الشركة (اختياري)",
+    "websitePlaceholder": "https://example.com",
+    "whatsappLabel": "واتساب / هاتف مباشر (اختياري)",
+    "whatsappPlaceholder": "+1 (555) 000-0000",
+    "preferredContactLabel": "طريقة التواصل المفضلة",
+    "contacts": {
+      "email": "البريد الإلكتروني",
+      "whatsapp": "واتساب",
+      "videoCall": "مكالمة فيديو"
+    }
+  },
+  "step4": {
+    "reviewTitle": "مراجعة ملخص طلب التوريد",
+    "sectionProducts": "المنتجات المطلوب توريدها",
+    "sectionDelivery": "التسليم والشروط",
+    "sectionContact": "الاتصال والشركة",
+    "editSection": "تعديل",
+    "consentText": "أوافق على قيام Connect HF بمشاركة هذه المواصفات مع مصنعين معتمدين في تاميل نادو لتنسيق الأسعار، وفقاً لـ",
+    "privacyPolicyLink": "سياسة الخصوصية",
+    "submitButton": "إرسال طلب التوريد",
+    "submitting": "جارٍ إرسال طلب التوريد..."
+  },
+  "success": {
+    "title": "تم استلام طلب التوريد",
+    "referenceText": "رقم مرجع طلب عرض السعر الخاص بك هو:",
+    "reviewNotice": "لقد استلمنا طلبك وسنقوم بمراجعته بعناية.",
+    "nextSteps": "يقوم مكتب التنسيق بمراجعة مواصفاتك الفنية مع التجمعات الصناعية المناسبة في تاميل نادو وسنتواصل معك قريباً.",
+    "submitAnother": "إرسال طلب آخر",
+    "emailUs": "مراسلة مكتب التنسيق",
+    "emailSubject": "استفسار بخصوص طلب عرض السعر {{ref}}"
+  },
+  "errors": {
+    "required": "هذا الحقل مطلوب",
+    "emailInvalid": "يرجى إدخال بريد إلكتروني صحيح للعمل",
+    "minChars": "يجب ألا يقل عن {{min}} حروف",
+    "categoryRequired": "يرجى اختيار فئة المنتج",
+    "consentRequired": "يجب الموافقة على سياسة الخصوصية للمتابعة",
+    "fileTooBig": "يجب أن يكون حجم الملف أقل من 10 ميجابايت",
+    "maxFiles": "يمكنك تحميل 3 ملفات كحد أقصى"
+  }
+}

@@ -16,6 +16,8 @@ import {
 import { BRAND_NAME } from '../../config/site';
 import { requestService } from '../../services/requestService';
 import { PRODUCT_CATEGORIES } from '../../data/categories';
+import { LanguageSwitcher } from '../common/LanguageSwitcher';
+import { LocalizedLink } from '../common/LocalizedLink';
 
 export const Navbar: React.FC = () => {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -252,22 +254,26 @@ export const Navbar: React.FC = () => {
           </div>
 
           {/* Primary Requirement Button (Inspired by reference design) */}
-          <Link
+          <LocalizedLink
             to="/buyers#enquiry"
             className="inline-flex items-center justify-center px-4 py-2 text-xs font-bold text-white bg-[#b91c1c] hover:bg-[#991b1b] rounded-[8px] transition-colors shadow-xs"
           >
             Submit Requirement
-          </Link>
+          </LocalizedLink>
+
+          {/* Language Switcher */}
+          <LanguageSwitcher variant="header" />
         </div>
 
         {/* Mobile menu trigger */}
         <div className="flex items-center gap-2 lg:hidden">
-          <Link
+          <LanguageSwitcher variant="header" />
+          <LocalizedLink
             to="/buyers#enquiry"
             className="sm:hidden px-3 py-1.5 text-xs font-bold text-white bg-[#b91c1c] hover:bg-[#991b1b] rounded-[8px]"
           >
             Submit RFQ
-          </Link>
+          </LocalizedLink>
           <button
             type="button"
             onClick={() => setMobileMenuOpen(!mobileMenuOpen)}

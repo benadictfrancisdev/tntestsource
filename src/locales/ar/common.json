@@ -1,0 +1,64 @@
+{
+  "brandName": "Connect HF",
+  "tagline": "شريكك في التوريد للمنتجات المصنوعة في الهند",
+  "nav": {
+    "categories": "الفئات",
+    "howItWorks": "كيف نعمل",
+    "forBuyers": "للمشترين",
+    "forManufacturers": "للمصنعين",
+    "aboutUs": "من نحن",
+    "contact": "اتصل بنا",
+    "submitRequirement": "تقديم المتطلبات",
+    "admin": "الإدارة",
+    "settings": "الإعدادات",
+    "browseAllCategories": "تصفح جميع الفئات"
+  },
+  "footer": {
+    "sourcingPartner": "شريك التوريد",
+    "productCategories": "فئات المنتجات",
+    "sourcingAndPartnerships": "التوريد والشراكات",
+    "submitEnquiry": "إرسال طلب توريد",
+    "joinAsManufacturer": "الانضمام كمصنع",
+    "agencyScope": "نطاق عمل الوكالة",
+    "agencyScopeText": "نحن نعمل كوسيط للتوريد والتنسيق. نحن لا نصنع المنتجات مباشرة.",
+    "pricingDisclaimer": "يتم تأكيد توفر الموردين والامتثال والأسعار لكل حالة على حدة.",
+    "adminLogin": "الإدارة والإعدادات",
+    "privacyPolicy": "سياسة الخصوصية",
+    "terms": "شروط الخدمة",
+    "allRightsReserved": "جميع الحقوق محفوظة."
+  },
+  "cta": {
+    "submitEnquiry": "إرسال استفسار توريد",
+    "submitRequirement": "إرسال متطلبات التوريد",
+    "browseCategories": "تصفح الفئات",
+    "joinAsManufacturer": "الانضمام كمصنع",
+    "learnMore": "اعرف المزيد",
+    "requestQuotation": "طلب عرض أسعار",
+    "requestQuote": "طلب عرض سعر",
+    "contactUs": "اتصل بنا",
+    "back": "رجوع",
+    "next": "التالي",
+    "submit": "إرسال الطلب",
+    "send": "إرسال الرسالة"
+  },
+  "badge": {
+    "illustrative": "توضيحي",
+    "verifiedSupplierNetwork": "شبكة موردين معتمدين",
+    "qualityManaged": "جودة مدارة",
+    "globalDelivery": "تسليم عالمي"
+  },
+  "notFound": {
+    "title": "الصفحة غير موجودة",
+    "message": "الصفحة التي تبحث عنها غير موجودة أو تم نقلها.",
+    "backHome": "العودة للرئيسية"
+  },
+  "cookieBanner": {
+    "message": "نحن نستخدم ملفات تعريف الارتباط التقنية الضرورية لإرسال النماذج وتفضيلات اللغة فقط.",
+    "accept": "موافق"
+  },
+  "langSuggestion": {
+    "message": "لاحظنا أن متصفحك باللغة {{langName}}. هل ترغب في التبديل إلى {{nativeLabel}}؟",
+    "switch": "التبديل إلى {{nativeLabel}}",
+    "dismiss": "البقاء بالإنجليزية"
+  }
+}

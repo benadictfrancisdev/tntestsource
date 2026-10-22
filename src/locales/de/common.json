@@ -1,0 +1,64 @@
+{
+  "brandName": "Connect HF",
+  "tagline": "Ihr Beschaffungspartner für Produkte Made in India",
+  "nav": {
+    "categories": "Categories",
+    "howItWorks": "How It Works",
+    "forBuyers": "For Buyers",
+    "forManufacturers": "For Manufacturers",
+    "aboutUs": "About Us",
+    "contact": "Contact",
+    "submitRequirement": "Submit Requirement",
+    "admin": "Admin",
+    "settings": "Settings",
+    "browseAllCategories": "Browse All Categories"
+  },
+  "footer": {
+    "sourcingPartner": "SOURCING PARTNER",
+    "productCategories": "Product Categories",
+    "sourcingAndPartnerships": "Sourcing & Partnerships",
+    "submitEnquiry": "Submit a Sourcing Enquiry",
+    "joinAsManufacturer": "Join as a Manufacturer",
+    "agencyScope": "Agency Scope",
+    "agencyScopeText": "We operate as a sourcing and coordination intermediary. We do not manufacture products directly.",
+    "pricingDisclaimer": "Supplier availability, compliance and prices are confirmed case by case.",
+    "adminLogin": "Admin & Settings",
+    "privacyPolicy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "allRightsReserved": "All rights reserved."
+  },
+  "cta": {
+    "submitEnquiry": "Submit a Sourcing Enquiry",
+    "submitRequirement": "Submit a Sourcing Requirement",
+    "browseCategories": "Browse Categories",
+    "joinAsManufacturer": "Join as a Manufacturer",
+    "learnMore": "Learn more",
+    "requestQuotation": "Request a quotation",
+    "requestQuote": "Request a Quote",
+    "contactUs": "Contact Us",
+    "back": "Back",
+    "next": "Next",
+    "submit": "Submit Request",
+    "send": "Send Message"
+  },
+  "badge": {
+    "illustrative": "Illustrative",
+    "verifiedSupplierNetwork": "Verified supplier network",
+    "qualityManaged": "Quality managed",
+    "globalDelivery": "Global delivery"
+  },
+  "notFound": {
+    "title": "Page Not Found",
+    "message": "The page you are looking for does not exist or has been moved.",
+    "backHome": "Back to Home"
+  },
+  "cookieBanner": {
+    "message": "We use minimal technical cookies necessary for secure form submission and language preferences. We do not use third-party tracking cookies.",
+    "accept": "Acknowledge"
+  },
+  "langSuggestion": {
+    "message": "We noticed your browser is in {{langName}}. Would you like to switch to {{nativeLabel}}?",
+    "switch": "Switch to {{nativeLabel}}",
+    "dismiss": "Keep English"
+  }
+}

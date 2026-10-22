@@ -1,0 +1,65 @@
+{
+  "seoTitle": "About Us | Connect HF",
+  "seoDescription": "Learn about Connect HF, our commission-based coordination model, ethical sourcing principles, and why we focus on Tamil Nadu manufacturing clusters.",
+  "hero": {
+    "title": "A Tamil Nadu-Focused Sourcing Partner for Global Buyers",
+    "subtitle": "We help international buyers explore suitable manufacturers across Tamil Nadu, and help manufacturers reach new buyers, through clear communication and honest expectations."
+  },
+  "whoWeAre": {
+    "title": "Who We Are",
+    "text": "We are building a Tamil Nadu-focused sourcing and export coordination agency that helps international buyers explore suitable products and manufacturing partners across the state. Our role is to understand buyer requirements, research potential suppliers, coordinate product information and quotations, and support clear communication between buyers and manufacturers."
+  },
+  "whatWeDo": {
+    "title": "What We Do and What We Don't",
+    "doTitle": "What we do",
+    "doItem1": "Understand your requirement",
+    "doItem2": "Research and shortlist potential suppliers",
+    "doItem3": "Coordinate quotations, samples and follow-ups",
+    "doItem4": "Support clear buyer-manufacturer communication",
+    "dontTitle": "What we don't do",
+    "dontItem1": "We do not manufacture the products we present",
+    "dontItem2": "We do not guarantee prices, lead times or availability before supplier confirmation",
+    "dontItem3": "We do not claim certifications on behalf of suppliers"
+  },
+  "howWeWork": {
+    "title": "How We Work",
+    "principle1Title": "Accurate information",
+    "principle1Text": "We share only what suppliers have confirmed.",
+    "principle2Title": "Practical follow-up",
+    "principle2Text": "Every enquiry has an owner and a next action.",
+    "principle3Title": "Transparent roles",
+    "principle3Text": "We explain who manufactures, who contracts for the sale and how next steps are handled.",
+    "principle4Title": "Case-by-case checks",
+    "principle4Text": "Capability, pricing, certifications and timelines are confirmed with the supplier before a firm offer is made."
+  },
+  "whyTamilNadu": {
+    "title": "Why Tamil Nadu",
+    "text": "Tamil Nadu brings together textile, leather, engineering, auto, agricultural and craft clusters in one region. We are building supplier relationships across these clusters, category by category."
+  },
+  "whereWeAreToday": {
+    "title": "Where we are today",
+    "text": "We are at an early stage and growing our supplier network. We publish categories as we are ready to discuss them credibly."
+  },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "q1": "Are you a manufacturer or a trading company?",
+    "a1": "We are neither a factory owner nor a merchant trading firm. We operate strictly as an independent B2B sourcing and export coordination agency. We connect buyers directly with manufacturers.",
+    "q2": "How does your agency earn revenue?",
+    "a2": "We operate on a transparent, agreed coordination commission model, either as a buyer-side retainer/commission or an agreed facilitation fee. We never apply opaque markups to factory prices.",
+    "q3": "Do you guarantee factory certifications or production capacity?",
+    "a3": "No. Certifications, compliance audits, and production schedules are verified per supplier and confirmed in writing prior to purchase orders.",
+    "q4": "Can we inspect the factory or receive physical samples?",
+    "a4": "Yes. We coordinate sample production, courier tracking, third-party lab testing, and factory visits directly with shortlisted Tamil Nadu suppliers.",
+    "q5": "What trade terms do you support?",
+    "a5": "We assist in coordinating standard Incoterms including EXW, FOB (via Chennai or Tuticorin ports), CIF, or DDP, agreed directly between buyer and supplier.",
+    "q6": "What happens if a supplier fails to meet specifications?",
+    "a6": "All production contracts and warranties are held directly between buyer and supplier. As your coordination partner, we facilitate clear dispute mediation and pre-shipment inspections.",
+    "q7": "How do we start a sourcing inquiry?",
+    "a7": "Submit your product requirements using our online RFQ form. Our desk will review your specifications and contact you to begin supplier identification."
+  },
+  "ctaBand": {
+    "title": "Ready to Start a Sourcing Conversation?",
+    "submitEnquiry": "Submit a Sourcing Enquiry",
+    "joinManufacturer": "Join as a Manufacturer"
+  }
+}

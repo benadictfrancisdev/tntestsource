@@ -936,18 +936,77 @@ export const AdminPage: React.FC = () => {
                 </div>
 
                 {'full_name' in editingItem.item && (
-                  <div className="space-y-1.5">
+                  <div className="space-y-2">
+                    <div className="flex items-center gap-2">
+                      <span className="font-mono text-xs font-bold text-[#0E9F9A] bg-[#EBF7F7] px-2 py-0.5 rounded">
+                        {editingItem.item.reference_no || editingItem.item.id.slice(0, 10)}
+                      </span>
+                      {editingItem.item.submitted_language && (
+                        <span className="text-[10px] font-semibold uppercase tracking-wider text-slate-500 bg-slate-200 px-1.5 py-0.5 rounded">
+                          Lang: {editingItem.item.submitted_language}
+                        </span>
+                      )}
+                    </div>
                     <p><strong>Buyer Name:</strong> {editingItem.item.full_name} ({editingItem.item.business_email})</p>
                     <p><strong>Company & Country:</strong> {editingItem.item.company_name} · {editingItem.item.country}</p>
-                    <p><strong>Product:</strong> {editingItem.item.product_name} ({editingItem.item.product_category})</p>
-                    <p><strong>Quantity & Price:</strong> {editingItem.item.est_quantity} {editingItem.item.target_price ? `· Target: ${editingItem.item.target_price} ${editingItem.item.currency}` : ''}</p>
-                    <p><strong>Destination:</strong> {editingItem.item.destination_country} ({editingItem.item.delivery_location})</p>
-                    <div className="pt-1">
-                      <span className="font-semibold block">Specifications:</span>
-                      <p className="p-2.5 bg-white rounded border border-slate-200 font-mono text-[11px] leading-relaxed mt-0.5">
-                        {editingItem.item.specifications}
-                      </p>
-                    </div>
+                    {editingItem.item.whatsapp && (
+                      <p><strong>WhatsApp / Mobile:</strong> {editingItem.item.whatsapp}</p>
+                    )}
+                    <p><strong>Destination & Port:</strong> {editingItem.item.destination_country} {editingItem.item.delivery_location ? `(${editingItem.item.delivery_location})` : ''}</p>
+                    {editingItem.item.incoterm && (
+                      <p><strong>Preferred Incoterm:</strong> {editingItem.item.incoterm}</p>
+                    )}
+                    {(editingItem.item.sample_required || editingItem.item.customisation_needed) && (
+                      <div className="flex gap-3 text-[11px] font-medium text-slate-700">
+                        {editingItem.item.sample_required && <span className="bg-amber-50 text-amber-800 px-2 py-0.5 rounded border border-amber-200">Sample Required</span>}
+                        {editingItem.item.customisation_needed && <span className="bg-teal-50 text-teal-800 px-2 py-0.5 rounded border border-teal-200">Customisation Needed</span>}
+                      </div>
+                    )}
+
+                    {/* Multi-line items table if present */}
+                    {editingItem.item.line_items && editingItem.item.line_items.length > 0 ? (
+                      <div className="pt-2">
+                        <span className="font-semibold block text-slate-900 mb-1">
+                          Product Line Items ({editingItem.item.line_items.length}):
+                        </span>
+                        <div className="border border-slate-200 rounded overflow-hidden">
+                          <table className="w-full text-left text-[11px]">
+                            <thead className="bg-slate-100 text-slate-600 border-b border-slate-200">
+                              <tr>
+                                <th className="p-2">Item</th>
+                                <th className="p-2">Category</th>
+                                <th className="p-2">Specifications</th>
+                                <th className="p-2">Quantity</th>
+                                <th className="p-2">Target Price</th>
+                              </tr>
+                            </thead>
+                            <tbody className="divide-y divide-slate-100 bg-white">
+                              {editingItem.item.line_items.map((line, idx) => (
+                                <tr key={idx}>
+                                  <td className="p-2 font-medium text-slate-900">{line.product_name}</td>
+                                  <td className="p-2 text-slate-600">{line.category}</td>
+                                  <td className="p-2 text-slate-600 max-w-xs truncate">{line.specifications}</td>
+                                  <td className="p-2 font-mono text-slate-700">{line.target_quantity}</td>
+                                  <td className="p-2 text-slate-700">{line.target_price || '—'}</td>
+                                </tr>
+                              ))}
+                            </tbody>
+                          </table>
+                        </div>
+                      </div>
+                    ) : (
+                      <>
+                        <p><strong>Product:</strong> {editingItem.item.product_name} ({editingItem.item.product_category})</p>
+                        <p><strong>Quantity & Price:</strong> {editingItem.item.est_quantity} {editingItem.item.target_price ? `· Target: ${editingItem.item.target_price} ${editingItem.item.currency}` : ''}</p>
+                        <div className="pt-1">
+                          <span className="font-semibold block">Specifications:</span>
+                          <p className="p-2.5 bg-white rounded border border-slate-200 font-mono text-[11px] leading-relaxed mt-0.5">
+                            {editingItem.item.specifications}
+                          </p>
+                        </div>
+                      </>
+                    )}
+
                     {editingItem.item.file_paths && editingItem.item.file_paths.length > 0 && (
                       <p className="text-[11px] text-slate-600 pt-1">
                         <strong>Uploaded Files:</strong> {editingItem.item.file_paths.join(', ')}

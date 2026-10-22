@@ -1,78 +1,1516 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>https://example.com/</loc>
+    <loc>https://example.com</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta" />
+    <changefreq>weekly</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta" />
     <changefreq>weekly</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://example.com/products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/products/textiles-garments</loc>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/textiles-garments" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/textiles-garments</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/textiles-garments" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/textiles-garments</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/textiles-garments" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/textiles-garments</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/textiles-garments" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/textiles-garments</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/textiles-garments" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/textiles-garments</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/textiles-garments" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/textiles-garments" />
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/products/leather-goods</loc>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/leather-goods" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/leather-goods</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/leather-goods" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/leather-goods</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/leather-goods" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/leather-goods</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/leather-goods" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/leather-goods</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/leather-goods" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/leather-goods</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/leather-goods" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/leather-goods" />
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/products/bags-packaging</loc>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/bags-packaging" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/bags-packaging</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/bags-packaging" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/bags-packaging</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/bags-packaging" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/bags-packaging</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/bags-packaging" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/bags-packaging</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/bags-packaging" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/bags-packaging</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/bags-packaging" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/bags-packaging" />
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/products/engineering-components</loc>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/engineering-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/engineering-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/engineering-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/engineering-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/engineering-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/engineering-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/engineering-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/engineering-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/engineering-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/engineering-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/engineering-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/engineering-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/products/auto-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/auto-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/auto-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/auto-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/auto-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/auto-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/auto-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/auto-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/auto-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/auto-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/auto-components</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/auto-components" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/auto-components" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/products/pumps-electricals</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/pumps-electricals" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/pumps-electricals</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/pumps-electricals" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/pumps-electricals</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/pumps-electricals" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/pumps-electricals</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/pumps-electricals" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/pumps-electricals</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/pumps-electricals" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/pumps-electricals</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/pumps-electricals" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/pumps-electricals" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/products/rubber-plastics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/rubber-plastics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/rubber-plastics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/rubber-plastics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/rubber-plastics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/rubber-plastics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/rubber-plastics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/rubber-plastics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/rubber-plastics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/rubber-plastics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/rubber-plastics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/rubber-plastics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/rubber-plastics" />
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/products/handicrafts-home-decor</loc>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/handicrafts-home-decor" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/handicrafts-home-decor</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/handicrafts-home-decor" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/handicrafts-home-decor</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/handicrafts-home-decor" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/handicrafts-home-decor</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/handicrafts-home-decor" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/handicrafts-home-decor</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/handicrafts-home-decor" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/handicrafts-home-decor</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/handicrafts-home-decor" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/handicrafts-home-decor" />
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/products/agricultural-products</loc>
-    <changefreq>monthly</changefreq>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/agricultural-products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/agricultural-products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/agricultural-products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/agricultural-products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/agricultural-products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/agricultural-products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/agricultural-products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/agricultural-products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/agricultural-products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/agricultural-products</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/agricultural-products" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/agricultural-products" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/products/food-processing</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/food-processing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/food-processing</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/food-processing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/food-processing</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/food-processing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/food-processing</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/food-processing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/food-processing</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/food-processing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/food-processing</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/food-processing" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/food-processing" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/products/coir-natural-fibre</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/coir-natural-fibre" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/coir-natural-fibre</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/coir-natural-fibre" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/coir-natural-fibre</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/coir-natural-fibre" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/coir-natural-fibre</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/coir-natural-fibre" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/coir-natural-fibre</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/coir-natural-fibre" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/coir-natural-fibre</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/coir-natural-fibre" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/coir-natural-fibre" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/products/granite-stone-ceramics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/granite-stone-ceramics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/products/granite-stone-ceramics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/granite-stone-ceramics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/products/granite-stone-ceramics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/granite-stone-ceramics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/products/granite-stone-ceramics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/granite-stone-ceramics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/products/granite-stone-ceramics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/granite-stone-ceramics" />
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/products/granite-stone-ceramics</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/products/granite-stone-ceramics" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/products/granite-stone-ceramics" />
+    <changefreq>weekly</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://example.com/how-it-works</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/how-it-works" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/how-it-works</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/how-it-works" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/how-it-works</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/how-it-works" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/how-it-works</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/how-it-works" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/how-it-works</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/how-it-works" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/how-it-works</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/how-it-works" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/how-it-works" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/buyers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/buyers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/buyers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/buyers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/buyers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/buyers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/buyers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/buyers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/buyers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/buyers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/buyers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/buyers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/buyers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/buyers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/buyers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/buyers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/buyers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/buyers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/buyers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/buyers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/buyers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/buyers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/buyers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/buyers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/buyers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/buyers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/buyers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/buyers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/buyers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/buyers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/buyers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/buyers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/buyers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/buyers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/buyers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/buyers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/buyers" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/manufacturers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/manufacturers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/manufacturers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/manufacturers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/manufacturers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/manufacturers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/manufacturers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/manufacturers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/manufacturers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/manufacturers" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/manufacturers</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/manufacturers" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/manufacturers" />
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/about</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/about" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/about</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/about" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/about</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/about" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/about</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/about" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/about</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/about" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/about</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/about" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/about" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/about" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/about" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/about" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/about" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/contact</loc>
-    <changefreq>monthly</changefreq>
-    <priority>0.7</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/contact</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/contact</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/contact</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/contact</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/contact</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/contact" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/privacy-policy</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/privacy-policy" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/privacy-policy" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/privacy-policy" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/privacy-policy" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/privacy-policy" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/privacy-policy</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/privacy-policy" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/privacy-policy" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
   <url>
     <loc>https://example.com/terms</loc>
-    <changefreq>yearly</changefreq>
-    <priority>0.3</priority>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/terms" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ar/terms</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/terms" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/fr/terms</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/terms" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/de/terms</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/terms" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/es/terms</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/terms" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://example.com/ta/terms</loc>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://example.com/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://example.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://example.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://example.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://example.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="ta" href="https://example.com/ta/terms" />
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
   </url>
 </urlset>

@@ -21,13 +21,32 @@ export interface BaseTrackerColumns {
   utm_campaign?: string;
   referrer?: string;
   landing_path?: string;
+  submitted_language?: string;
+}
+
+export interface ProductLineItem {
+  category: string;
+  product_name: string;
+  specifications: string;
+  quantity: string;
+  unit: string;
+  order_frequency?: string;
+  target_price?: string;
+  currency?: string;
 }
 
 export interface BuyerEnquiryRecord extends BaseTrackerColumns {
+  reference_no: string;
   full_name: string;
   business_email: string;
   company_name: string;
   country: string;
+  company_website?: string;
+  whatsapp?: string;
+  preferred_contact?: string;
+  // Repeatable line items (up to 5)
+  line_items: ProductLineItem[];
+  // Backwards compatibility fields populated from line_items[0]
   product_category: string;
   product_name: string;
   specifications: string;
@@ -35,9 +54,14 @@ export interface BuyerEnquiryRecord extends BaseTrackerColumns {
   order_frequency?: string;
   target_price?: string;
   currency?: string;
+  // Delivery & Requirements
   destination_country: string;
   delivery_location?: string;
+  incoterm?: string;
   required_delivery_date?: string | null;
+  sample_required?: boolean;
+  customisation_needed?: boolean;
+  customisation_notes?: string;
   compliance_needs?: string;
   file_paths?: string[];
   consent: boolean;

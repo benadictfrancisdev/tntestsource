@@ -57,6 +57,8 @@ function PageTracker() {
   return null;
 }
 
+import { LocaleLayout } from './components/layout/LocaleLayout';
+
 export default function App() {
   return (
     <HelmetProvider>
@@ -66,18 +68,39 @@ export default function App() {
           <Navbar />
           <main className="flex-1">
             <Routes>
-              <Route path="/" element={<HomePage />} />
-              <Route path="/products" element={<ProductsPage />} />
-              <Route path="/products/:slug" element={<ProductDetailPage />} />
-              <Route path="/how-it-works" element={<HowItWorksPage />} />
-              <Route path="/buyers" element={<BuyersPage />} />
-              <Route path="/manufacturers" element={<ManufacturersPage />} />
-              <Route path="/about" element={<AboutPage />} />
-              <Route path="/contact" element={<ContactPage />} />
-              <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
-              <Route path="/terms" element={<TermsPage />} />
+              {/* Unprefixed root English routes wrapped in LocaleLayout forceLang="en" */}
+              <Route element={<LocaleLayout forceLang="en" />}>
+                <Route path="/" element={<HomePage />} />
+                <Route path="/products" element={<ProductsPage />} />
+                <Route path="/products/:slug" element={<ProductDetailPage />} />
+                <Route path="/how-it-works" element={<HowItWorksPage />} />
+                <Route path="/buyers" element={<BuyersPage />} />
+                <Route path="/manufacturers" element={<ManufacturersPage />} />
+                <Route path="/about" element={<AboutPage />} />
+                <Route path="/contact" element={<ContactPage />} />
+                <Route path="/privacy-policy" element={<PrivacyPolicyPage />} />
+                <Route path="/terms" element={<TermsPage />} />
+              </Route>
+
+              {/* Prefixed language routes (ar, fr, de, es, ta) */}
+              <Route path="/:lang" element={<LocaleLayout />}>
+                <Route index element={<HomePage />} />
+                <Route path="products" element={<ProductsPage />} />
+                <Route path="products/:slug" element={<ProductDetailPage />} />
+                <Route path="how-it-works" element={<HowItWorksPage />} />
+                <Route path="buyers" element={<BuyersPage />} />
+                <Route path="manufacturers" element={<ManufacturersPage />} />
+                <Route path="about" element={<AboutPage />} />
+                <Route path="contact" element={<ContactPage />} />
+                <Route path="privacy-policy" element={<PrivacyPolicyPage />} />
+                <Route path="terms" element={<TermsPage />} />
+              </Route>
+
+              {/* Admin Portal (Strictly English, no lang prefix, noindex) */}
               <Route path="/admin" element={<AdminPage />} />
               <Route path="/settings" element={<SettingsPage />} />
+
+              {/* 404 Fallback */}
               <Route path="*" element={<NotFoundPage />} />
             </Routes>
           </main>

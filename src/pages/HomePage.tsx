@@ -24,6 +24,7 @@ import {
 import { BRAND_NAME, TAGLINE } from '../config/site';
 import { PRODUCT_CATEGORIES } from '../data/categories';
 import { Seo } from '../components/common/Seo';
+import { CategoryIllustration } from '../components/illustrations/CategoryIllustration';
 
 export const HomePage: React.FC = () => {
   const getCategoryIcon = (slug: string) => {
@@ -304,40 +305,54 @@ export const HomePage: React.FC = () => {
         </div>
       </section>
 
-      {/* 4b. "Explore Products We Can Help Source": 6 category cards */}
+      {/* 4b. "Explore Products We Can Help Source": 12 category cards with illustrative scenes */}
       <section className="py-16 sm:py-20 bg-white border-b border-slate-200">
         <div className="max-w-[1280px] mx-auto px-4 sm:px-6 space-y-10">
-          <div className="space-y-2">
-            <span className="text-xs font-semibold uppercase tracking-wider text-[#b91c1c]">
-              Manufacturing Capabilities
-            </span>
-            <h2 className="text-2xl sm:text-3xl font-bold text-[#0B2545] tracking-tight">
-              Explore Products We Can Help Source
-            </h2>
+          <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+            <div className="space-y-2">
+              <span className="text-xs font-semibold uppercase tracking-wider text-[#b91c1c]">
+                Manufacturing Capabilities
+              </span>
+              <h2 className="text-2xl sm:text-3xl font-bold text-[#0B2545] tracking-tight">
+                Explore Products We Can Help Source
+              </h2>
+            </div>
+            <Link
+              to="/products"
+              className="inline-flex items-center text-xs font-bold text-[#0E9F9A] hover:text-[#0B8884] transition-colors"
+            >
+              View all 12 categories
+              <ArrowRight className="w-3.5 h-3.5 ml-1" />
+            </Link>
           </div>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
             {PRODUCT_CATEGORIES.map((cat) => (
               <div
                 key={cat.slug}
-                className="bg-white border border-slate-200 rounded-[8px] p-6 flex flex-col justify-between hover:border-red-300 hover:shadow-md transition-all group"
+                className="bg-white border border-slate-200 rounded-[8px] overflow-hidden flex flex-col justify-between hover:border-slate-300 hover:shadow-md transition-all group"
               >
-                <div className="space-y-3">
-                  <div className="w-10 h-10 rounded-[8px] bg-red-50 flex items-center justify-center group-hover:bg-red-100 transition-colors">
-                    {getCategoryIcon(cat.slug)}
+                <div>
+                  <div className="w-full bg-[#F5F7FA] border-b border-slate-100">
+                    <CategoryIllustration slug={cat.slug} variant="card" />
                   </div>
-                  <h3 className="text-base font-bold text-[#0B2545] leading-snug">
-                    {cat.name}
-                  </h3>
-                  <p className="text-xs text-slate-600 leading-relaxed">
-                    {cat.short}
-                  </p>
+                  <div className="p-5 space-y-2.5">
+                    <span className="text-[10px] font-semibold uppercase tracking-wider text-[#0E9F9A] bg-[#EBF7F7] px-2 py-0.5 rounded">
+                      {cat.group}
+                    </span>
+                    <h3 className="text-sm font-bold text-[#0B2545] leading-snug group-hover:text-[#0E9F9A] transition-colors">
+                      {cat.name}
+                    </h3>
+                    <p className="text-xs text-slate-600 line-clamp-2 leading-relaxed">
+                      {cat.short}
+                    </p>
+                  </div>
                 </div>
 
-                <div className="pt-6 mt-4 border-t border-slate-100 flex items-center justify-between">
+                <div className="px-5 pb-5 pt-3 border-t border-slate-100 flex items-center justify-between">
                   <Link
                     to={`/products/${cat.slug}`}
-                    className="inline-flex items-center text-xs font-bold text-[#b91c1c] hover:text-[#991b1b] transition-colors"
+                    className="inline-flex items-center text-xs font-bold text-[#0E9F9A] hover:text-[#0B8884] transition-colors"
                   >
                     Learn more
                     <ArrowRight className="w-3.5 h-3.5 ml-1" />

@@ -1,0 +1,122 @@
+{
+  "multiStep": {
+    "step1Title": "Your Products",
+    "step1Subtitle": "Specify the products you need to source",
+    "step2Title": "Delivery & Terms",
+    "step2Subtitle": "Destination, shipping terms and compliance",
+    "step3Title": "Your Details",
+    "step3Subtitle": "Company information and contact preference",
+    "step4Title": "Review & Send",
+    "step4Subtitle": "Verify details and submit your request",
+    "stepOf": "Step {{current}} of {{total}}"
+  },
+  "step1": {
+    "productItemTitle": "Product Line Item {{index}}",
+    "addProduct": "+ Add Another Product (up to 5)",
+    "removeProduct": "Remove Product",
+    "categoryLabel": "Product Category *",
+    "selectCategory": "Select category",
+    "productNameLabel": "Product Name *",
+    "productNamePlaceholder": "e.g. Combed Cotton Loopback Sweatshirt",
+    "specsLabel": "Specifications & Technical Details *",
+    "specsHelper": "Material, dimensions/size, colour, finish, tolerances, weight (GSM), and applicable standards.",
+    "specsPlaceholder": "Provide exact technical specs, grade, fabric GSM, or CAD tolerances...",
+    "quantityLabel": "Estimated Quantity *",
+    "quantityPlaceholder": "e.g. 2500",
+    "unitLabel": "Unit *",
+    "units": {
+      "pieces": "எண்ணிக்கை",
+      "kg": "kg",
+      "metres": "metres",
+      "sets": "sets",
+      "cartons": "cartons",
+      "tonnes": "tonnes",
+      "other": "other"
+    },
+    "orderFrequencyLabel": "Order Frequency",
+    "frequencies": {
+      "oneTime": "One-time trial order",
+      "monthly": "Monthly recurring",
+      "quarterly": "Quarterly recurring",
+      "yearly": "Annual contract",
+      "notSure": "Not sure yet"
+    },
+    "targetPriceLabel": "Target Price (optional)",
+    "targetPricePlaceholder": "e.g. 12.50",
+    "currencyLabel": "Currency",
+    "quoteHintsTitle": "What suppliers need to quote for this category:"
+  },
+  "step2": {
+    "destinationCountryLabel": "Destination Country *",
+    "selectCountry": "Select destination country",
+    "deliveryLocationLabel": "Delivery Port / Location",
+    "deliveryLocationPlaceholder": "e.g. Hamburg Port, Germany or CIF basis",
+    "tradeTermsLabel": "Preferred Trade Terms (Incoterms)",
+    "tradeTermsHelper": "Indicative preference only. Final terms are agreed between buyer and manufacturer.",
+    "incoterms": {
+      "notSure": "Not sure / Recommend best",
+      "exw": "EXW (Ex Works factory)",
+      "fob": "FOB (Free On Board Chennai / Tuticorin port)",
+      "cif": "CIF (Cost, Insurance & Freight to destination port)",
+      "ddp": "DDP (Delivered Duty Paid to warehouse)"
+    },
+    "deliveryDateLabel": "Target Delivery Date (optional)",
+    "sampleRequiredLabel": "Physical pre-production sample required before bulk order",
+    "customisationLabel": "Custom branding / private label / custom tooling required",
+    "customisationNotesLabel": "Customisation & Branding Details",
+    "customisationNotesPlaceholder": "Describe custom debossing, tags, embroidery, custom moulds or branded packaging...",
+    "complianceLabel": "Certifications, Testing or Regulatory Needs (optional)",
+    "compliancePlaceholder": "e.g. GOTS, OEKO-TEX Standard 100, REACH, FDA food grade, mill test reports...",
+    "fileUploadLabel": "Upload Drawings, Tech Packs or Spec Sheets (optional)",
+    "fileUploadHelper": "Up to 3 files, maximum 10MB each (PDF, PNG, JPG, CAD drawings, DOCX)."
+  },
+  "step3": {
+    "fullNameLabel": "Full Name *",
+    "fullNamePlaceholder": "Your name",
+    "businessEmailLabel": "Business Email *",
+    "businessEmailPlaceholder": "name@company.com",
+    "companyNameLabel": "Company Name *",
+    "companyNamePlaceholder": "Registered business name",
+    "countryLabel": "Your Country *",
+    "selectCountry": "Select your country",
+    "websiteLabel": "Company Website (optional)",
+    "websitePlaceholder": "https://example.com",
+    "whatsappLabel": "WhatsApp / Direct Phone (optional)",
+    "whatsappPlaceholder": "+1 (555) 000-0000",
+    "preferredContactLabel": "Preferred Contact Method",
+    "contacts": {
+      "email": "Email",
+      "whatsapp": "WhatsApp",
+      "videoCall": "Video Call"
+    }
+  },
+  "step4": {
+    "reviewTitle": "Review Sourcing Request Summary",
+    "sectionProducts": "Products to Source",
+    "sectionDelivery": "Delivery & Terms",
+    "sectionContact": "Contact & Company",
+    "editSection": "Edit",
+    "consentText": "I agree that Connect HF may share these specifications with vetted manufacturers in Tamil Nadu to coordinate quotations, in accordance with the",
+    "privacyPolicyLink": "Privacy Policy",
+    "submitButton": "Submit Sourcing Request",
+    "submitting": "Submitting Sourcing Request..."
+  },
+  "success": {
+    "title": "Sourcing Request Received",
+    "referenceText": "Your quotation request reference number is:",
+    "reviewNotice": "We have received your request and will review it.",
+    "nextSteps": "Our coordination desk is reviewing your technical specifications against active Tamil Nadu clusters. We will reach out through your preferred contact method.",
+    "submitAnother": "Submit Another Request",
+    "emailUs": "Email Coordination Desk",
+    "emailSubject": "Inquiry regarding Quote Request {{ref}}"
+  },
+  "errors": {
+    "required": "This field is required",
+    "emailInvalid": "Please enter a valid business email",
+    "minChars": "Must be at least {{min}} characters",
+    "categoryRequired": "Please select a product category",
+    "consentRequired": "You must agree to the Privacy Policy to proceed",
+    "fileTooBig": "File must be smaller than 10MB",
+    "maxFiles": "You can upload a maximum of 3 files"
+  }
+}

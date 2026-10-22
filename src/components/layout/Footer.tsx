@@ -6,6 +6,7 @@ import {
   CONTACT_EMAIL,
   SOCIALS
 } from '../../config/site';
+import { LanguageSwitcher } from '../common/LanguageSwitcher';
 
 export const Footer: React.FC = () => {
   return (
@@ -155,10 +156,12 @@ export const Footer: React.FC = () => {
           </div>
         </div>
 
-        {/* Bottom bar with Privacy, Terms, and Copyright */}
+        {/* Bottom bar with Language Switcher, Privacy, Terms, and Copyright */}
         <div className="pt-6 flex flex-col sm:flex-row items-center justify-between text-xs text-slate-400 gap-4">
           <p>© {new Date().getFullYear()} {BRAND_NAME}. All rights reserved.</p>
-          <div className="flex items-center gap-4">
+          <div className="flex flex-wrap items-center gap-4">
+            <LanguageSwitcher variant="footer" />
+            <span aria-hidden="true">·</span>
             <Link to="/privacy-policy" className="hover:text-slate-200 transition-colors">
               Privacy Policy
             </Link>
